@@ -29,7 +29,7 @@ const Navbar = props => {
           <Link className='nav-link active' to='/portfolio'>Portfolio</Link>
         </li>
         <li className='nav-item'>
-          <Link className='nav-link active' to='/codeofconduct/'>Code of Conduct</Link>
+          <Link className='nav-link active' to='/codeofconduct'>Code of Conduct</Link>
         </li>
         <li className='nav-item'>
           <Link className='nav-link active' to='/contact'>Contact Us</Link>

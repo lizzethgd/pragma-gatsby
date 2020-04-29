@@ -1,10 +1,7 @@
 import React from 'react';
-
-//import imagePlaceholder from '../images/img-placeholder.png'
 import "../styles/blogcard.sass"
 
-
-const BlogCard = (props) => {
+const BlogCard = props => {
   const {cardImage, cardTitle, cardDate, cardText} = props
   return (
     <div className="content" key='1'>
@@ -16,7 +13,7 @@ const BlogCard = (props) => {
       <div className="post-item">
         <p className="post-title" >{cardTitle}<small> &bull; {cardDate}</small> </p>
          <p className="post-text" >{cardText}</p>
-        <button className='post-button'>Keep Reading → </button>
+        <button className='post-button'>Read More → </button>
       </div>
     </div>
   )

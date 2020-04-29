@@ -1,0 +1,37 @@
+// Config vars
+$card-blue: #1976D2
+$card-blue-invert: white
+$extra-small-devices: 600px;
+$small-devices: 600px;
+$medium-devices: 768px;
+$large-devices: 992px;
+$extra-large-devices: 1200px;
+
+// ----------------
+
+.contactcard
+    background-color: $card-blue
+    color: white
+    padding: 3.5rem;
+    width: 25%
+
+.social
+    display: flex;
+    margin-top: 10px
+
+.circle
+    background-color: $card-blue-invert;
+    height: 40px;
+    width: 40px;
+    border-radius: 75%;
+    margin-right: 15px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+//
+@media only screen and (max-width: $large-devices)
+    
+ .contactcard    
+    width: 100%

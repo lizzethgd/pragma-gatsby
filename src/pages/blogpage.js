@@ -30,7 +30,7 @@ const BlogPage = () => {
             <h1>Blog</h1>
                 {data.allContentfulBlogPost.edges.map((edge) => {
                     return (
-                            <Link to={`/blog/${edge.node.slug}`} >
+                            <Link className='link_active' to={`/blog/${edge.node.slug}`} key={edge.node.slug}>
                             <BlogCard cardTitle={edge.node.title} cardDate={edge.node.publishedDate} cardText={texto} 
                             cardImage={edge.node.image.fluid!=null ? edge.node.image.fluid.src : imagePlaceHolder}/>
                             </Link>
